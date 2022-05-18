@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Listing</title>
+</head>
+<body>
+    <header>
+         <div class="navdiv">
+            <nav class="navbar">
+                <div class="navlogo">
+                    <h1 class="logo">Somato</h1>
+                </div>
+                <div class="headerbutton">
+                    <span class="navbtn"><a href="index.html">Home</a></span>
+                    <button class="navbtn">Register</button>
+                    <button class="navbtn">Sign In</button>
+                </div>
+            </nav>
+        </div>
+        <div class="mainHeader listingheader">
+            <div class="headercontent">
+                <h1 class="headline">Somato</h1>
+                <h2 class="headdesc">Discover the best food & drinks in your city</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 class="listtitle">Restaurant Listing</h2>
+        <div class="listbody">
+            <div class="searchform">
+                <form class="listform" action="">
+                    <h4>Search</h4>
+                    <label for="">Search for:
+                        <input type="text">
+                    </label>
+                    <label for="city">City:
+                        <select class="" name="city">
+                            <option value="">Select Your City</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Bengaluru">Bengaluru</option>
+                            <option value="Kolkata">Kolkata</option>
+                        </select>
+                    </label>
+                    <label for="rating">Rating:
+                        <input type="radio" name="rating" id="">1</input>
+                        <input type="radio" name="rating" id="">2</input>
+                        <input type="radio" name="rating" id="">3</input>
+                        <input type="radio" name="rating" id="">4</input>
+                        <input type="radio" name="rating" id="">5</input>
+                        <input type="radio" name="rating" id="">All</input>
+                    </label>
+                    <label for="Type">Serves:
+                        <input type="checkbox" name="" id="">Veg Only</input>
+                        <input type="checkbox" name="" id="">Non Veg</input>
+                    </label>
+                    <button>Search</button>
+                </form>
+            </div>
+            <div class="listitems">
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/8/19308718/9b2686f5ee29a45ff58b11a247b53dca_o2_featured_v2.jpg?output-format=webp" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">Raffaele's Ristorante Pizzeria</h3>
+                        <p class="restdesc">Pizza, Italian, Beverages</p>
+                        <span class="rating">Rating: 4.5/5 100 Votes</span>
+                        <p class="address">Koramangala 6th Block, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now: </span>9.00 AM - 11: 30 PM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/3/52333/0d4b417bb6ef8cda96fab9966eefdd38.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">Jalpaan</h3>
+                        <p class="restdesc">North Indian, Italian, Street Food, Desserts, Beverages</p>
+                        <span class="rating">Rating: 4.2/5 70 Votes</span>
+                        <p class="address">Jaya Nagar, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Closed: </span>Opens at 7:00 PM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/1/19624791/c3f343c93ed4addd3972cff380613aee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">Chicking</h3>
+                        <p class="restdesc">Burger, Pizza, Fast Food</p>
+                        <span class="rating">Rating: 4.1/5 98 Votes</span>
+                        <p class="address">Rajaji Nagar, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now</span>11.00 AM - 11: 30 PM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/3/19417453/54d82dab0bad02a30596e04b2ecc0006.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">New Taj Darbar</h3>
+                        <p class="restdesc">North Indian, Chinese, Mughlai</p>
+                        <span class="rating">Rating: 3.6/5 4,022 Votes</span>
+                        <p class="address">Shivajinagar, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now: </span>7.00 AM - 5: 00 AM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/chains/6/50036/c5e37d1690f8c195bcc9f58ae609a2dc_o2_featured_v2.jpg" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">New Sher-E- Punjab Hotel</h3>
+                        <p class="restdesc">PNorth Indian</p>
+                        <span class="rating">Rating: 3.3/5 75 Votes</span>
+                        <p class="address">City Market, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now: </span>11.00 AM - 11: 30 PM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/dish_photos/75f/599288ef354fb8a63824fe78ebbc975f.jpg?output-format=webp" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">BTC - Bathinda Thali Company</h3>
+                        <p class="restdesc">North Indian, Chinese, Mughlai, Desserts, Beverages</p>
+                        <span class="rating">Rating: 3.5/5 178 Votes</span>
+                        <p class="address">Koramangala 7th Block, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now: </span>9.00 AM - 11: 00 PM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/7/19296607/ac33d9c2931b8a72d00d81a888e7f250_o2_featured_v2.jpg?output-format=webp" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">Khamma Ghani Sa</h3>
+                        <p class="restdesc">Rajasthani, North Indian</p>
+                        <span class="rating">Rating: 3.9/5 315 Votes</span>
+                        <p class="address">Koramangala 5th Block, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now: </span>10.00 AM - 11: 00 PM</p>
+                    </div>
+                </div>
+                <div class="listitem">
+                    <img class="listimg" src="https://b.zmtcdn.com/data/pictures/chains/3/19715673/181c71c8c597a5c25890791ed165200b.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                    <div class="descwrapper">
+                        <h3 class="restname">Chinese Wok - Wok Express</h3>
+                        <p class="restdesc">Momos, Chinese, Sichuan</p>
+                        <span class="rating">Rating: 4.0/5 133 Votes</span>
+                        <p class="address">Malleshwaram, Bangalore</p>
+                        <p class="timing"><span class="timetitle">Open Now: </span>9.00 AM - 11: 30 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+     <footer class="footer">
+        <div class="page-footer">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-col">
+                    <h3>About</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Use</li>
+                        <li>News</li>
+                        <li>Events</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Get Involved</h3>
+                    <ul>
+                        <li>Work with Us</li>
+                        <li>Subscribe for Newsletter</li>
+                        <li>Forum</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help Center</h3>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Contact Us</li>
+                        <li>How to Register</li>
+                    </ul>
+                </div>
+                <div class="footer-col social">
+                    <h3>Social</h3>
+                    <ul class = "social-icons-footer">
+                        <li><a href="" id="fb" class="footer-social"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                        <li><a href="" id="tw" class="footer-social"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        <li><a href="" id="in" class="footer-social"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                        <li><a href="" id="in" class="footer-social"><i class="fa-brands fa-youtube-square fa-lg"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <h4>&copy 2022 Somato. Made by <a href='https://aggarwaladi.in' target="_blank">Aditya Aggarwal</a></h4>
+        </div>
+    </footer>
+</body>
+</html>

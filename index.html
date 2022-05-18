@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Somato</title>
+</head>
+<body>
+    <header>
+        <div class="navdiv">
+            <nav class="navbar">
+                <div class="navlogo">
+                    <h1 class="logo">Somato</h1>
+                </div>
+                <div class="headerbutton">
+                    <span class="navbtn"><a href="listing.html">Listing</a></span>
+                    <button class="navbtn">Register</button>
+                    <button class="navbtn">Sign In</button>
+                </div>
+            </nav>
+        </div>
+        <div class="mainHeader">
+            <div class="headercontent">
+                <h1 class="headline">Somato</h1>
+                <h2 class="headdesc">Discover the best food & drinks in your city</h2>
+            </div>
+            <div class="search">
+                <select class="cityinput" name="city">
+                    <option value="">Select Your City</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Kolkata">Kolkata</option>
+                </select>
+                <i class="fa-solid fa-angle-down searchicons"></i>
+                <i class="fa-solid fa-grip-lines-vertical searchicons"></i>
+                <i class="fa-solid fa-magnifying-glass searchicons"></i>
+                <input type="text" class="searchinput" placeholder="Search for cuisine, restaurant or dish" />
+            </div>
+        </div>
+    </header>
+    <main class="maincontent">
+        <div class="maincategory">
+            <div class="categoryitem">
+                <a href="#" target="_blank">
+                    <img class="catimg" src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <p class="category">Order Online</p>
+                </a>
+            </div>
+            <div class="categoryitem">
+                <a href="#" target="_blank">
+                    <img class="catimg" src="https://images.pexels.com/photos/370984/pexels-photo-370984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <p class="category">Dining Out</p>
+                </a>
+            </div>
+            <div class="categoryitem">
+                <a href="#" target="_blank">
+                    <img class="catimg" src="https://images.pexels.com/photos/7020291/pexels-photo-7020291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <p class="category">Pro and Pro plus</p>
+                </a>
+            </div>
+            <div class="categoryitem">
+                <a href="#" target="_blank">
+                    <img class="catimg" src="https://images.pexels.com/photos/309293/pexels-photo-309293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <p class="category">Nightlife</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="curatedlist">
+            <h2 class="curatedheading">Top Picks</h2>
+            <p class="curatedintro">Check out the list of most popular restaurants near you</p>
+            <div class="curateditems">
+                <div class="curatedlistitem">
+                    <img src="https://images.pexels.com/photos/7702229/pexels-photo-7702229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="curatedimg">
+                    <div class="curateddesc">
+                        <p class="curatedtype">Live Streaming</p>
+                        <p class="curatednum">125 places <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="curatedlistitem">
+                    <img src="https://images.pexels.com/photos/6205759/pexels-photo-6205759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="curatedimg">
+                    <div class="curateddesc">
+                        <p class="curatedtype">Newly Opened</p>
+                        <p class="curatednum">75 New Restaurants <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="curatedlistitem">
+                    <img src="https://images.pexels.com/photos/4083585/pexels-photo-4083585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="curatedimg">
+                    <div class="curateddesc">
+                        <p class="curatedtype">Most Popular this Week</p>
+                        <p class="curatednum">35 Places <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="curatedlistitem">
+                    <img src="https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="curatedimg">
+                    <div class="curateddesc">
+                        <p class="curatedtype">Popular Choices</p>
+                        <p class="curatednum">200 Popular Places<i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="page-footer">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-col">
+                    <h3>About</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Use</li>
+                        <li>News</li>
+                        <li>Events</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Get Involved</h3>
+                    <ul>
+                        <li>Work with Us</li>
+                        <li>Subscribe for Newsletter</li>
+                        <li>Forum</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help Center</h3>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Contact Us</li>
+                        <li>How to Register</li>
+                    </ul>
+                </div>
+                <div class="footer-col social">
+                    <h3>Social</h3>
+                    <ul class = "social-icons-footer">
+                        <li><a href="" id="fb" class="footer-social"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                        <li><a href="" id="tw" class="footer-social"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        <li><a href="" id="in" class="footer-social"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                        <li><a href="" id="in" class="footer-social"><i class="fa-brands fa-youtube-square fa-lg"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <h4>&copy 2022 Somato. Made by <a href='https://aggarwaladi.in' target="_blank">Aditya Aggarwal</a></h4>
+        </div>
+    </footer>
+</body>
+</html>
